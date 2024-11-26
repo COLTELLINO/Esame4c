@@ -1,0 +1,33 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ExamTester190123</Name>
+    <Description>&lt;Nessuna descrizione disponibile&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ExamTester190123</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="BozzaEsame150123.vcxproj" File="BozzaEsame150123.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">BozzaEsame150123.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.c">main.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sequence.c">sequence.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="utilities.c">utilities.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sequence_sol.c">sequence_sol.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="selector.h">selector.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sequence.h">sequence.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="sequence_sol.h">sequence_sol.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="utilities.h">utilities.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="B_to_read.txt">B_to_read.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="A_to_read.txt">A_to_read.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="empty_file.txt">empty_file.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="student_save.txt">student_save.txt</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
