@@ -1,4 +1,4 @@
-﻿#include "sequence_sol.h"
+﻿#include "sequence.h"
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
