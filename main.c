@@ -1,4 +1,4 @@
-#include "sequence_sol.c"
+#include "sequence.c"
 #include "sequence.h"
 #include "stdio.h"
 #include <string.h>
@@ -52,7 +52,7 @@ int main() {
 #endif // TEST_PROCESS
 
 #ifdef TEST_SAVE
-	/*APPUNTO: se dice che il salvataggio non è andato a buon fine, ma aprendo il file sembra corretto, e' perchè manca la fclose*/
+	/*APPUNTO: se dice che il salvataggio non Ã¨ andato a buon fine, ma aprendo il file sembra corretto, e' perchÃ¨ manca la fclose*/
 	printf(YELLOW"TEST SAVE\n"END);
 	char* save_file = "student_save.txt";
 	test_save(prove[4], to_reverse, save_file);
